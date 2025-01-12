@@ -3,7 +3,7 @@ from modules import functions
 
 sl.title("Todo App")
 todos = functions.get_todos()
-print("test")
+
 
 def add_todo():
     todo = sl.session_state["add_todo"]
